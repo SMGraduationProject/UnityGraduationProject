@@ -377,104 +377,13 @@ public class FirstPersonAIO : MonoBehaviour {
         #endregion
 
         #region Movement Settings - Update
-
+        
         #endregion
 
         #region Headbobbing Settings - Update
 
         #endregion
 
-        if (transform.position.x > 1985 && transform.position.x < 1988)
-        {
-            if (transform.position.z < 249 && transform.position.z > 248 && transform.position.y >51 && transform.position.y <52)
-            {
-                transform.position = new Vector3(2528, 42, 257);
-
-            }
-
-        }
-
-        if (transform.position.x > 2495 && transform.position.x < 2509)
-        {
-            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 257);
-
-            }
-
-        }
-        else if (transform.position.x > 2511 && transform.position.x < 2527)
-        {
-            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 312);
-
-            }
-
-        }
-        else if (transform.position.x > 2529 && transform.position.x < 2547)
-        {
-            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 257);
-
-            }
-
-        }
-        else if (transform.position.x > 2548 && transform.position.x < 2562)
-        {
-            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 257);
-
-            }
-
-        }
-        if (transform.position.x > 2495 && transform.position.x < 2515)
-        {
-            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 312);
-
-            }
-
-        }
-        else if (transform.position.x > 2516d && transform.position.x < 2539)
-        {
-            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 312);
-
-            }
-
-        }
-        else if (transform.position.x > 2540 && transform.position.x < 2562)
-        {
-            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 367);
-
-            }
-
-        }
-        if (transform.position.x > 2495 && transform.position.x < 2528)
-        {
-            if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(2528, 42, 367);
-
-            }
-
-        }
-        else if (transform.position.x > 2529 && transform.position.x < 2562)
-        {
-            if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(1972,52,248);
-
-            }
-
-        }
     }
 
     private void FixedUpdate(){
