@@ -1,8 +1,4 @@
 sceneSetups:
-- path: Assets/Amusement Park/World.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
 - path: Assets/Hyungsik/Hyungsik's_Map/Operation_G_scene.unity
   isLoaded: 1
   isActive: 1
