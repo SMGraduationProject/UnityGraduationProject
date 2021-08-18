@@ -15,11 +15,11 @@ C:/Users/kwon/Desktop/UnityGraduationProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51313
+57185
 Successfully changed project path to: C:/Users/kwon/Desktop/UnityGraduationProject
 C:/Users/kwon/Desktop/UnityGraduationProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009024 seconds.
+Registered in 0.005154 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.770 seconds
+- Completed reload, in  3.303 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013716 seconds.
+Registered in 0.019816 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.646 seconds
+- Completed reload, in  1.610 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1601 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 112.0 MB.
 System memory in use after: 111.6 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2062.
-Total: 2.982700 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.065400 ms  DeleteObjects: 0.532900 ms)
+Total: 3.084900 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.310600 ms  DeleteObjects: 0.484500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,17 +80,913 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hyungsik/Hyungsik's_Map/Operation_G_scene/NavMesh.asset
-  artifactKey: Guid(76978fc82202c90429efcc3f35ff0f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyungsik/Hyungsik's_Map/Operation_G_scene/NavMesh.asset using Guid(76978fc82202c90429efcc3f35ff0f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec28c76b3b77b0e59761405ac226ffc2') in 0.092325 seconds 
-  Import took 0.098944 seconds .
+  path: Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Animations/Rockets_Anim.anim
+  artifactKey: Guid(93f82afc60e911f4ab7364983c8b9dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Animations/Rockets_Anim.anim using Guid(93f82afc60e911f4ab7364983c8b9dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbce785ad28e69d1bd7580c155b817fc') in 0.070798 seconds 
+  Import took 0.075910 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2762.215367 seconds.
-  path: Assets/sungwoo/Locker
-  artifactKey: Guid(1c911985ba2ceea4ab88e7f3715e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sungwoo/Locker using Guid(1c911985ba2ceea4ab88e7f3715e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7abc955a2e2f0fe0636796d888b766') in 0.009399 seconds 
-  Import took 0.016453 seconds .
+  Time since last request: 18.470576 seconds.
+  path: Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Prefabs/Attractions/Cable Railway
+  artifactKey: Guid(7b2cb6e405cb37047b40f072e63b902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Prefabs/Attractions/Cable Railway using Guid(7b2cb6e405cb37047b40f072e63b902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f10ef0679d2bce64c973a974e2bf8e') in 0.004869 seconds 
+  Import took 0.012817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.197172 seconds.
+  path: Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Materials/MainMaterial.mat
+  artifactKey: Guid(9caba574b1d9b674aa6911c858af7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Materials/MainMaterial.mat using Guid(9caba574b1d9b674aa6911c858af7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2e4281f3c0d585ea6ea017b9dab80f') in 0.637458 seconds 
+  Import took 0.645192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Materials/Park_Material.mat
+  artifactKey: Guid(766a0434d6f0475429aa4d37667e5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/Hyungsik's_Map/Amusement Park/Materials/Park_Material.mat using Guid(766a0434d6f0475429aa4d37667e5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428f0755758c6596cbb59d3e789669d3') in 0.089501 seconds 
+  Import took 0.094851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.215474 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/bird.png
+  artifactKey: Guid(e5aa934da75c68146926b5034411cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/bird.png using Guid(e5aa934da75c68146926b5034411cb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22c927e1156c0fad5924ac70978a5e8') in 0.055044 seconds 
+  Import took 0.067116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/wind.png
+  artifactKey: Guid(460ae3e0bb3c8f84c81c367a9759b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/wind.png using Guid(460ae3e0bb3c8f84c81c367a9759b181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe0fce546f11bb1bee5315678a89321') in 0.014743 seconds 
+  Import took 0.020822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/soil.png
+  artifactKey: Guid(85cc7c15807cd2b4dafab40029d3a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/soil.png using Guid(85cc7c15807cd2b4dafab40029d3a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f78d46c7047b9c0e7a658d744d473ed') in 0.022235 seconds 
+  Import took 0.028890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/deer.png
+  artifactKey: Guid(5e5f7c43b9f80ae49b054d92bc06e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/deer.png using Guid(5e5f7c43b9f80ae49b054d92bc06e07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27ccf53ec270bb51406398d547ecd0d') in 0.016938 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/fire.png
+  artifactKey: Guid(e19b56cb43bd33d4d93a2e8a94d9abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/fire.png using Guid(e19b56cb43bd33d4d93a2e8a94d9abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db3595bb6ea82c435eac99fc8259727') in 0.023042 seconds 
+  Import took 0.030472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/water.png
+  artifactKey: Guid(bbaacdc9dc2d0cf4da5d9c094403a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/water.png using Guid(bbaacdc9dc2d0cf4da5d9c094403a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec05cf0d9886cd3193337799e9f1fc6f') in 0.019517 seconds 
+  Import took 0.024651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/tree.png
+  artifactKey: Guid(dcd3e4fdb90a09d46b32744ac022ebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/tree.png using Guid(dcd3e4fdb90a09d46b32744ac022ebaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67751ddfbb3b0d19dddf0444d431a3dc') in 0.022440 seconds 
+  Import took 0.028480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Pictures/clover.png
+  artifactKey: Guid(5870ee94387c16747bc2f79538252936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Pictures/clover.png using Guid(5870ee94387c16747bc2f79538252936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f88787313c52c2df99ca9a091a3563b') in 0.016421 seconds 
+  Import took 0.022484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.295949 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Materials/New Material.mat
+  artifactKey: Guid(9efd9619b7d2059468fa537f8f188c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Materials/New Material.mat using Guid(9efd9619b7d2059468fa537f8f188c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087d066c8986d655e14c49b774f7285e') in 0.030346 seconds 
+  Import took 0.039213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.305301 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Scripts/castle_boat.cs
+  artifactKey: Guid(83219a75f05958d4b8469812edb61911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Scripts/castle_boat.cs using Guid(83219a75f05958d4b8469812edb61911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51a835b6f06c09b345120705e133d91') in 0.060234 seconds 
+  Import took 0.066755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.419637 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Scripts/castle_puzzle_key.cs
+  artifactKey: Guid(097b46de30671bb4e95b3528c3fa52b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Scripts/castle_puzzle_key.cs using Guid(097b46de30671bb4e95b3528c3fa52b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b83e7b19a2db5e87cd60d9e7ba1621a') in 0.008766 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.375813 seconds.
+  path: Assets/Hyungsik/My_Own_Assets/Scripts/castle_puzzle.cs
+  artifactKey: Guid(1cfa0187321d47d42bece6bbccc9f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/My_Own_Assets/Scripts/castle_puzzle.cs using Guid(1cfa0187321d47d42bece6bbccc9f7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48d73465ba6c5cfdf84a05d88449ecb') in 0.008490 seconds 
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.427716 seconds.
+  path: Assets/Keunwoo/MainScript.cs
+  artifactKey: Guid(53287270b554dfc4e87293638e217052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keunwoo/MainScript.cs using Guid(53287270b554dfc4e87293638e217052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f814ffcf78c663c160d6db617dfc4') in 0.007282 seconds 
+  Import took 0.016727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.724368 seconds.
+  path: Assets/Keunwoo/EnemyAI.cs
+  artifactKey: Guid(bc7d02cb25a61c64d90de918a763963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keunwoo/EnemyAI.cs using Guid(bc7d02cb25a61c64d90de918a763963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86052e4253a5793191dfccdd549453bf') in 0.006720 seconds 
+  Import took 0.013066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.001700 seconds.
+  path: Assets/Keunwoo/NPC_Trigger.cs
+  artifactKey: Guid(130a8d12a26b4d244829139993d877b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keunwoo/NPC_Trigger.cs using Guid(130a8d12a26b4d244829139993d877b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c17ba282950d00c1e7f367f15a1799') in 0.006836 seconds 
+  Import took 0.021422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5059.694682 seconds.
+  path: Assets/sungwoo/Free Game Items
+  artifactKey: Guid(ce97e61bae0156e48885ae3987ccb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items using Guid(ce97e61bae0156e48885ae3987ccb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d94c3a08f69e2a9dd2f18242747c56') in 0.019250 seconds 
+  Import took 0.088562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/sungwoo/Free Game Items/preview.png
+  artifactKey: Guid(214e21ac81a300c4a88d865df6f2e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/preview.png using Guid(214e21ac81a300c4a88d865df6f2e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b09cae1279f82f799f8473e7d035c4c') in 0.241413 seconds 
+  Import took 0.245782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.020370 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi
+  artifactKey: Guid(21936c5a92f32284fba5231a02cab33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi using Guid(21936c5a92f32284fba5231a02cab33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17040ef50174499342cc239b2018056d') in 0.017831 seconds 
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014110 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/ammo.png
+  artifactKey: Guid(065196a737ffbe84ca0876de02f4ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/ammo.png using Guid(065196a737ffbe84ca0876de02f4ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50539d7bb5fac903cf4efa7c23a9b07') in 0.039801 seconds 
+  Import took 0.047163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/potion_2.png
+  artifactKey: Guid(36909f432fe97bc478f7be7842c9ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/potion_2.png using Guid(36909f432fe97bc478f7be7842c9ab8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e847e431b47d2dfe4e319c86ecc9a5d0') in 0.044645 seconds 
+  Import took 0.050222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/gem_3.png
+  artifactKey: Guid(992982b4c1faf9a41bf341bded171693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/gem_3.png using Guid(992982b4c1faf9a41bf341bded171693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eb5442a279891ec0a25e4a059eebb0') in 0.036790 seconds 
+  Import took 0.040996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/pills.png
+  artifactKey: Guid(ce366f5ea4046fd4b98451d16cede31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/pills.png using Guid(ce366f5ea4046fd4b98451d16cede31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617d6be05b550406fc60d088106a8af6') in 0.025154 seconds 
+  Import took 0.030206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/feather.png
+  artifactKey: Guid(146790c133953e540be1a921d2cebfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/feather.png using Guid(146790c133953e540be1a921d2cebfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc4ab21d34691a4b8c05ff72183ed58') in 0.039241 seconds 
+  Import took 0.044158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/brick.png
+  artifactKey: Guid(a913c4ee4e0054943aca266cf6ddafba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/brick.png using Guid(a913c4ee4e0054943aca266cf6ddafba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14788efa1cfe8f6d37aa065f218c569') in 0.033217 seconds 
+  Import took 0.037950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/chemical_light.png
+  artifactKey: Guid(cef47ff50199453438a49592ef51c133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/chemical_light.png using Guid(cef47ff50199453438a49592ef51c133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226900aa4584e07164b65f14a322a243') in 0.036449 seconds 
+  Import took 0.042857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/backpack-2.png
+  artifactKey: Guid(16a5b15b326b32d4baa898c47923be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/backpack-2.png using Guid(16a5b15b326b32d4baa898c47923be33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb075742a703918ddf4b73b8858aa5e6') in 0.031398 seconds 
+  Import took 0.037672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/potion_1_empty.png
+  artifactKey: Guid(367a2743e5e5340479ad350352d15fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/potion_1_empty.png using Guid(367a2743e5e5340479ad350352d15fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce72fe1ed0808f51765646e98fe7140f') in 0.033301 seconds 
+  Import took 0.039337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/pill.png
+  artifactKey: Guid(4b7eb98431f4f4a4a8e8292a48d0e133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/pill.png using Guid(4b7eb98431f4f4a4a8e8292a48d0e133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85edd2ca80f8e57b5d438f63a46afa6') in 0.029830 seconds 
+  Import took 0.041303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/gem_1.png
+  artifactKey: Guid(00cf63e975c02fa4b87b711e0506ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/gem_1.png using Guid(00cf63e975c02fa4b87b711e0506ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f40a8b976589c1fc94009ba06fecb9') in 0.029886 seconds 
+  Import took 0.037049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/gem_4.png
+  artifactKey: Guid(e4bd423dba3ff684b9a85e22d7f41cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/gem_4.png using Guid(e4bd423dba3ff684b9a85e22d7f41cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71cf4581f27969b65a9461bb350f179') in 0.036095 seconds 
+  Import took 0.043228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/bomb.png
+  artifactKey: Guid(91ab9277a3d666b428e79dfe69938b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/bomb.png using Guid(91ab9277a3d666b428e79dfe69938b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06994dfb74d3fcc061299d4d55d5b29f') in 0.035856 seconds 
+  Import took 0.043300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/book.png
+  artifactKey: Guid(34e64f14c373ebd40b4d9be575825ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/book.png using Guid(34e64f14c373ebd40b4d9be575825ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45b9eebf50845e808dae6993f853f9') in 0.034351 seconds 
+  Import took 0.038793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/scroll.png
+  artifactKey: Guid(3045bfedd77866b4d9f46d482f457071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/scroll.png using Guid(3045bfedd77866b4d9f46d482f457071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63102a484a6f5bdb2a8e74fb7e402cee') in 0.042987 seconds 
+  Import took 0.050846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/bandage.png
+  artifactKey: Guid(c405172a6ae3f364fb4042b96f123d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/bandage.png using Guid(c405172a6ae3f364fb4042b96f123d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff808f82928da5941049abb108a320f3') in 0.027855 seconds 
+  Import took 0.034813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/gem_2.png
+  artifactKey: Guid(ae8bceb5895af394ea8e9ed168fa517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/gem_2.png using Guid(ae8bceb5895af394ea8e9ed168fa517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d65c29d066154044cac5cb083e1bbd5') in 0.030733 seconds 
+  Import took 0.035456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/machete.png
+  artifactKey: Guid(ef88f45e5ac907c4a920d72b1b9ff9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/machete.png using Guid(ef88f45e5ac907c4a920d72b1b9ff9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d99413d74f11d49aba3bbd62bd22dec') in 0.027441 seconds 
+  Import took 0.033630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000938 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/bronze_coin.png
+  artifactKey: Guid(1bc03583bc80d7b49af2152c91851676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/bronze_coin.png using Guid(1bc03583bc80d7b49af2152c91851676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e25673009701386ae62aaa04cab03c7') in 0.030009 seconds 
+  Import took 0.036233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005317 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/potion_1.png
+  artifactKey: Guid(9e42e33b837674a4f8e849f4b50c739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/potion_1.png using Guid(9e42e33b837674a4f8e849f4b50c739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fe7e89b56319c8ee3aac5b4df64ad4') in 0.031641 seconds 
+  Import took 0.036498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/flashlight.png
+  artifactKey: Guid(1942afda985c4d54ab6c3b81a4c41a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/flashlight.png using Guid(1942afda985c4d54ab6c3b81a4c41a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3ed99f73cdf5aa11e9cf18d3fc0a51') in 0.032688 seconds 
+  Import took 0.039783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/potion_2_empty.png
+  artifactKey: Guid(22e52e83277b2b94a8d6d540b7488ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/potion_2_empty.png using Guid(22e52e83277b2b94a8d6d540b7488ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3638855d36b187a2818fb839d7063928') in 0.032270 seconds 
+  Import took 0.037202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/backpack-1.png
+  artifactKey: Guid(ad5446d7a6027584eade1dce1c06cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/backpack-1.png using Guid(ad5446d7a6027584eade1dce1c06cf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9012cc78099ef6336f53810dc56a8b') in 0.031403 seconds 
+  Import took 0.039834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/belt.png
+  artifactKey: Guid(526473d8ed4455745a010c15661452f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/belt.png using Guid(526473d8ed4455745a010c15661452f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6e1043e37c0b0695a3e834774fafa7') in 0.026022 seconds 
+  Import took 0.030982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/rifle.png
+  artifactKey: Guid(ef232edbfbcf4ea43947dca9fbb4bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/rifle.png using Guid(ef232edbfbcf4ea43947dca9fbb4bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6376dac88386ffaa5d36674c6d918641') in 0.034741 seconds 
+  Import took 0.039564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/rope.png
+  artifactKey: Guid(420a87b733fcaee42a91c8a1c1b5328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/rope.png using Guid(420a87b733fcaee42a91c8a1c1b5328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda75a76d47d400731882d6036b3899e') in 0.035457 seconds 
+  Import took 0.040440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/hammer.png
+  artifactKey: Guid(a1458af9a9fa6a24b9aad07401571004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/hammer.png using Guid(a1458af9a9fa6a24b9aad07401571004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5471d2d4981a8dfb8bae13136c9c5d') in 0.027659 seconds 
+  Import took 0.035561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/clover.png
+  artifactKey: Guid(0e9e91c34a25b584cbe0ad01a27f0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/clover.png using Guid(0e9e91c34a25b584cbe0ad01a27f0940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ec581bac3b1b780ff583698436f80d') in 0.033465 seconds 
+  Import took 0.038622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/sword.png
+  artifactKey: Guid(bfd8a83a1bee71449b0b456d6ab1bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/sword.png using Guid(bfd8a83a1bee71449b0b456d6ab1bb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be83e04315988da6942039e80399931f') in 0.038595 seconds 
+  Import took 0.043943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/sungwoo/Free Game Items/96dpi/ring.png
+  artifactKey: Guid(676f1382cdbe8bf4faf669f78c127c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/96dpi/ring.png using Guid(676f1382cdbe8bf4faf669f78c127c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb4423be6734c93e3cf4fd753748c23') in 0.037006 seconds 
+  Import took 0.042387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.487375 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/ammo.png
+  artifactKey: Guid(a67cd7dab2050a54f898863bf264ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/ammo.png using Guid(a67cd7dab2050a54f898863bf264ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaba766d8204b4f00423156da6103c8') in 0.026143 seconds 
+  Import took 0.031995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/bronze_coin.png
+  artifactKey: Guid(0c58eb10dda343143953486e5549756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/bronze_coin.png using Guid(0c58eb10dda343143953486e5549756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eb232c79d199f36f67da4d74b67156') in 0.044325 seconds 
+  Import took 0.053710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/bronze ring.png
+  artifactKey: Guid(3aa5cda1d42445740b56426a7cb18139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/bronze ring.png using Guid(3aa5cda1d42445740b56426a7cb18139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6de018d722bbf5fc44806ed81491926') in 0.041939 seconds 
+  Import took 0.049278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/pills.png
+  artifactKey: Guid(e15e5a9f12f5ca144acfbb3f22d462ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/pills.png using Guid(e15e5a9f12f5ca144acfbb3f22d462ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e332151d379f1e89ec4f5a547ab54c52') in 0.041071 seconds 
+  Import took 0.045245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/flashlight.png
+  artifactKey: Guid(1f2eae0ec7e511f409191c6d85418258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/flashlight.png using Guid(1f2eae0ec7e511f409191c6d85418258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cdc619fbd6b17619a0aa5a20403356') in 0.028465 seconds 
+  Import took 0.034160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/rope.png
+  artifactKey: Guid(f3f06133b56c1a44f80c0a112374078d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/rope.png using Guid(f3f06133b56c1a44f80c0a112374078d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd6124b6b130664e57553826c9bc35d') in 0.043021 seconds 
+  Import took 0.047941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/machete.png
+  artifactKey: Guid(030b5a41ce5ebb342957db59fd51a4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/machete.png using Guid(030b5a41ce5ebb342957db59fd51a4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0235cdf866566c3c29c62565eb6d9dae') in 0.031071 seconds 
+  Import took 0.036267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/potion_2_empty.png
+  artifactKey: Guid(b5ea03a986f689e44aa934de1f7ae1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/potion_2_empty.png using Guid(b5ea03a986f689e44aa934de1f7ae1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de644bdc905cc79b867fab9ed3b516b5') in 0.033015 seconds 
+  Import took 0.039504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/gem_1.png
+  artifactKey: Guid(9d96b31e7c1e3724fa0163f2502afc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/gem_1.png using Guid(9d96b31e7c1e3724fa0163f2502afc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9d5db170cf5e02e23ad9fcbfc8133a') in 0.029289 seconds 
+  Import took 0.034565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/potion_2.png
+  artifactKey: Guid(99aa7aa01843022489c9e6d46752f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/potion_2.png using Guid(99aa7aa01843022489c9e6d46752f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3d3aacb35714183d9144b66f1b5bac') in 0.035260 seconds 
+  Import took 0.040595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/book.png
+  artifactKey: Guid(296692dab58e9a54fa2ecc1c2873f377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/book.png using Guid(296692dab58e9a54fa2ecc1c2873f377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d838c2c81d055ac6d529d9a596f94ad') in 0.035178 seconds 
+  Import took 0.041102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/gem_3.png
+  artifactKey: Guid(388dc454837a9094c8e32a5a1dd53eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/gem_3.png using Guid(388dc454837a9094c8e32a5a1dd53eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ebaac374d7881c289c7f40c90f1767') in 0.038174 seconds 
+  Import took 0.043615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/gem_4.png
+  artifactKey: Guid(20e6a9fed35dc7641b2f1e05ec4df8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/gem_4.png using Guid(20e6a9fed35dc7641b2f1e05ec4df8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6cfccb5f42e3b8b3b366532e458115') in 0.038854 seconds 
+  Import took 0.044511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/feather.png
+  artifactKey: Guid(398ee2ddb63ed8a43bb4751c386147d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/feather.png using Guid(398ee2ddb63ed8a43bb4751c386147d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2074b56722840abe9350bc93794407c9') in 0.028509 seconds 
+  Import took 0.038241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/chemical_light.png
+  artifactKey: Guid(19eb8852cbca02541b7fe908a8376eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/chemical_light.png using Guid(19eb8852cbca02541b7fe908a8376eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c5c19a5e34c4006710c9d4ef45ded0') in 0.026708 seconds 
+  Import took 0.034157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/potion_1_empty.png
+  artifactKey: Guid(420cc50bfd0371a4685fa062bd53f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/potion_1_empty.png using Guid(420cc50bfd0371a4685fa062bd53f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032b6e6b2c46ba6e05aed7afc567c32') in 0.037070 seconds 
+  Import took 0.043169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/scroll.png
+  artifactKey: Guid(903fddc25c30f0c4eadffe034e1922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/scroll.png using Guid(903fddc25c30f0c4eadffe034e1922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa4340d09573bfc2a70502fe82b0f84') in 0.037372 seconds 
+  Import took 0.045475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/rifle.png
+  artifactKey: Guid(3f7512b08ade92a4280543ffc340539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/rifle.png using Guid(3f7512b08ade92a4280543ffc340539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed31360b868e9d3953c2f7c0df3e851') in 0.030856 seconds 
+  Import took 0.039993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/backpack-2.png
+  artifactKey: Guid(48d8d2a1bc080b44bae9e5051f3778a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/backpack-2.png using Guid(48d8d2a1bc080b44bae9e5051f3778a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79660aa2652050e49037c34283d89e7') in 0.025315 seconds 
+  Import took 0.030056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/bomb.png
+  artifactKey: Guid(2d3caa3d3f9185a48a285a753a719814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/bomb.png using Guid(2d3caa3d3f9185a48a285a753a719814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5823ba033719abb3a97b38555c28de') in 0.041923 seconds 
+  Import took 0.047358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/brick.png
+  artifactKey: Guid(0f164ab155b3e1148a10640d5860e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/brick.png using Guid(0f164ab155b3e1148a10640d5860e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c07847fc5738f6c587c8a6c78e99ae7') in 0.042946 seconds 
+  Import took 0.047700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/potion_1.png
+  artifactKey: Guid(d4714c096b4e64447b21b2f6732349a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/potion_1.png using Guid(d4714c096b4e64447b21b2f6732349a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f0f445e94e1c0e66ca5785d2661b54') in 0.033522 seconds 
+  Import took 0.040102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/gem_2.png
+  artifactKey: Guid(fa54695b107096c41bc043f3b9dbc4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/gem_2.png using Guid(fa54695b107096c41bc043f3b9dbc4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6825dd69d4b626401669e0add7b977') in 0.033431 seconds 
+  Import took 0.038143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/bandage.png
+  artifactKey: Guid(fe164ee5909f79f4094b122d24c53370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/bandage.png using Guid(fe164ee5909f79f4094b122d24c53370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73698fb56bdba0a8f667066f0ccd0eb0') in 0.032203 seconds 
+  Import took 0.038933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001224 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/backpack-1.png
+  artifactKey: Guid(f8ff264e7b256434ea4cca9cd62dafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/backpack-1.png using Guid(f8ff264e7b256434ea4cca9cd62dafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4efaccfca05a93604c423368af85aeb') in 0.054006 seconds 
+  Import took 0.061137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003251 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/belt.png
+  artifactKey: Guid(c2cfaf152e298ec4b80c8c3ad1f077bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/belt.png using Guid(c2cfaf152e298ec4b80c8c3ad1f077bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c594b7c8944f40bcdec89232b442636a') in 0.045441 seconds 
+  Import took 0.055959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/hammer.png
+  artifactKey: Guid(9a380a347d8371546bc7ef7d48296ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/hammer.png using Guid(9a380a347d8371546bc7ef7d48296ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5574f5e36e469d383896b1171d12225') in 0.044008 seconds 
+  Import took 0.052224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/sword.png
+  artifactKey: Guid(a2ae9e4ab0c76ab4cba5197f07cdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/sword.png using Guid(a2ae9e4ab0c76ab4cba5197f07cdfb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc5beb89692a0624b0c65f2f70f5db4') in 0.051721 seconds 
+  Import took 0.058912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/clover.png
+  artifactKey: Guid(0a98387fe6c286d44970acaa56b0df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/clover.png using Guid(0a98387fe6c286d44970acaa56b0df29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218bc790d53f2800d9c003e03a3facad') in 0.105384 seconds 
+  Import took 0.113111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi/pill.png
+  artifactKey: Guid(80768f9d81e32fa42af4c7ce14089ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi/pill.png using Guid(80768f9d81e32fa42af4c7ce14089ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5da85a6a0406772dd7d785d427446') in 0.083525 seconds 
+  Import took 0.775843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.705341 seconds.
+  path: Assets/sungwoo/Free Game Items/150dpi
+  artifactKey: Guid(54d9ed70bb4c4c144987845dee574ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Free Game Items/150dpi using Guid(54d9ed70bb4c4c144987845dee574ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35ce4331a064de6095dc4d2a06acc8a') in 0.036430 seconds 
+  Import took 0.046433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.466919 seconds.
+  path: Assets/sungwoo/Medieval_Gold
+  artifactKey: Guid(fac0ff2f281fbe54586032da907a5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold using Guid(fac0ff2f281fbe54586032da907a5428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ff8e905671e97652132db2d2eeb31') in 0.014965 seconds 
+  Import took 0.021808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017987 seconds.
+  path: Assets/sungwoo/Medieval_Gold/1_coin.FBX
+  artifactKey: Guid(e5c14ae27372c264e91749eb0dc21c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/1_coin.FBX using Guid(e5c14ae27372c264e91749eb0dc21c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17699dfbc68705404d5a465e715f8acd') in 0.874153 seconds 
+  Import took 0.879239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/sungwoo/Medieval_Gold/Coins.FBX
+  artifactKey: Guid(636a75be40c9c8049b40881b820b2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/Coins.FBX using Guid(636a75be40c9c8049b40881b820b2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10ef14008feaf9ce2b801dd1ecf2174') in 1.338385 seconds 
+  Import took 1.345059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001036 seconds.
+  path: Assets/sungwoo/Medieval_Gold/Materials/gold_coin_color.mat
+  artifactKey: Guid(f023ec5f2d83c5c408ad42ed058a3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/Materials/gold_coin_color.mat using Guid(f023ec5f2d83c5c408ad42ed058a3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd631f9a927ce775813ce9b19a75787') in 0.114752 seconds 
+  Import took 0.128087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044628 seconds.
+  path: Assets/sungwoo/Medieval_Gold/Materials
+  artifactKey: Guid(43c1a1983d279c7409ecc24ef69399c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/Materials using Guid(43c1a1983d279c7409ecc24ef69399c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d53124e4b24544fc671ce4358dac79') in 0.040603 seconds 
+  Import took 0.056388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/sungwoo/Medieval_Gold/Materials/gold_bar_color.mat
+  artifactKey: Guid(fae5cbff7c0e7864fb2b8224bc29f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/Materials/gold_bar_color.mat using Guid(fae5cbff7c0e7864fb2b8224bc29f91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b445043e2947387aa207ab02e95493') in 0.071497 seconds 
+  Import took 0.077960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/sungwoo/Medieval_Gold/1_ignot.FBX
+  artifactKey: Guid(a67125680eec6d249bd495b5f6e372f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/1_ignot.FBX using Guid(a67125680eec6d249bd495b5f6e372f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870ee2d397cdc53fbb55062871a985c3') in 0.049332 seconds 
+  Import took 0.055184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001209 seconds.
+  path: Assets/sungwoo/Medieval_Gold/Gold_Ignots.FBX
+  artifactKey: Guid(20d179be9fde8b4489a9708b03ed6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/Gold_Ignots.FBX using Guid(20d179be9fde8b4489a9708b03ed6ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9a36e048c85f86b23f8a6e781a476') in 0.585330 seconds 
+  Import took 0.592711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.958621 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_bar_color.tif
+  artifactKey: Guid(148c68d40025c84468c7003719d6faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_bar_color.tif using Guid(148c68d40025c84468c7003719d6faa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b0787fe1e2453580cc2b9614e352a7') in 0.037682 seconds 
+  Import took 0.044817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_bar_Specular.tif
+  artifactKey: Guid(ab48185f61fa8a847a619f1a22e9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_bar_Specular.tif using Guid(ab48185f61fa8a847a619f1a22e9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fffc32a36c52ace4e2a7200f45598dd') in 0.032768 seconds 
+  Import took 0.038184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_coin_color.tif
+  artifactKey: Guid(c57eb93625abd584eb7b06f91465af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_coin_color.tif using Guid(c57eb93625abd584eb7b06f91465af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0598e9c1b0ce10a3f9af4553dd6644f0') in 0.026093 seconds 
+  Import took 0.032300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_coin_Specular.tif
+  artifactKey: Guid(7bfa3e6225182b443981d6f3e356d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_coin_Specular.tif using Guid(7bfa3e6225182b443981d6f3e356d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c380c48049e3d93e70ac713456718b') in 0.037833 seconds 
+  Import took 0.043484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_coin_normals.tif
+  artifactKey: Guid(7bf4ddebad4ac3a49a737e42d1a9f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_coin_normals.tif using Guid(7bf4ddebad4ac3a49a737e42d1a9f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992ace0c396aac39d5a268b9a8c9c9ad') in 0.040975 seconds 
+  Import took 0.046031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures/gold_bar_normals.tif
+  artifactKey: Guid(3f206ab8d7362444b8ab846927a616b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures/gold_bar_normals.tif using Guid(3f206ab8d7362444b8ab846927a616b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4c22a20cd12fb682b11d715eba8701') in 0.040501 seconds 
+  Import took 0.045685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.247155 seconds.
+  path: Assets/sungwoo/Medieval_Gold/textures
+  artifactKey: Guid(cb1ff9e80ebff0f40a32c397ce6c3fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Medieval_Gold/textures using Guid(cb1ff9e80ebff0f40a32c397ce6c3fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5f4ef5037184a21b8b58593f621700') in 0.035991 seconds 
+  Import took 0.042061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.571508 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab
+  artifactKey: Guid(c05c37f206b882d4ebf08dd0f2f5c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab using Guid(c05c37f206b882d4ebf08dd0f2f5c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a74f48548b5851825b7b938c25e22c') in 0.010364 seconds 
+  Import took 0.016594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016812 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/bottle_009.prefab
+  artifactKey: Guid(f207b6d3238dca54bbacdcc2c4070b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/bottle_009.prefab using Guid(f207b6d3238dca54bbacdcc2c4070b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c88b6872515af988bc3b1e50eccfd18') in 0.092301 seconds 
+  Import took 0.097259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/sack_010.prefab
+  artifactKey: Guid(1a56d136e1f6aff49abd6200d24524bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/sack_010.prefab using Guid(1a56d136e1f6aff49abd6200d24524bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6d1d80d5e5bf5c6a94eefcc78570d5') in 0.034125 seconds 
+  Import took 0.038765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/gold_01.prefab
+  artifactKey: Guid(c7a576da05c747044883c5e87e3ad15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/gold_01.prefab using Guid(c7a576da05c747044883c5e87e3ad15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc57b0938c867f4d727ed73891517e4b') in 0.026163 seconds 
+  Import took 0.031848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1642.370458 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_04.png
+  artifactKey: Guid(9dfb86f5a3cc99e4a80eac1c95a8965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_04.png using Guid(9dfb86f5a3cc99e4a80eac1c95a8965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26ff8a157c431b4302fadb7b4b5180a') in 0.065416 seconds 
+  Import took 0.071173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_09.png
+  artifactKey: Guid(054e62e8e21ef5a4a9c706e996101fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_09.png using Guid(054e62e8e21ef5a4a9c706e996101fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e98d96ea9d3733e6429a16142db336') in 0.062871 seconds 
+  Import took 0.068295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_10.png
+  artifactKey: Guid(0326de9cfe03507448b78c13ba949a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Texture/texture_10.png using Guid(0326de9cfe03507448b78c13ba949a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfad1c336dbc912a2d8c74f0f764b9be') in 0.067246 seconds 
+  Import took 0.071492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.882612 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/bottle_009.fbx
+  artifactKey: Guid(2c12fea04e855924b8d643e83375fafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/bottle_009.fbx using Guid(2c12fea04e855924b8d643e83375fafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a58eeaccf6af49292743d35c2cef2b8') in 0.089647 seconds 
+  Import took 0.094031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/gold_01.fbx
+  artifactKey: Guid(4397706d8a5dec64188f5219e69172ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/gold_01.fbx using Guid(4397706d8a5dec64188f5219e69172ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016adbd10740783cb57cc40b2aef751a') in 0.067278 seconds 
+  Import took 0.072025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/sack_010.fbx
+  artifactKey: Guid(e2931e63496fa7445b16142524769cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/sack_010.fbx using Guid(e2931e63496fa7445b16142524769cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fd7ac0bfe06b97c8c6e13a21a0b67f') in 0.074180 seconds 
+  Import took 0.080387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.716725 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials
+  artifactKey: Guid(0c5f70ab6ae9f73418b0ecb9dd85085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials using Guid(0c5f70ab6ae9f73418b0ecb9dd85085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ad1b3192adf35b327977e535abde8') in 0.046875 seconds 
+  Import took 0.109417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_09.mat
+  artifactKey: Guid(8edf00d48a58bd241a47d8fbf0a6db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_09.mat using Guid(8edf00d48a58bd241a47d8fbf0a6db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e95f551b17a0bbb83f77f565375a1a4') in 0.144343 seconds 
+  Import took 0.173346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_04.mat
+  artifactKey: Guid(5c0a6148f12183740a09c51414fd129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_04.mat using Guid(5c0a6148f12183740a09c51414fd129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b6dd1937482087719d666bb40e84b4') in 0.088175 seconds 
+  Import took 0.097658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_10.mat
+  artifactKey: Guid(d7c78396b7f54ac4e961fefd839c091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_10.mat using Guid(d7c78396b7f54ac4e961fefd839c091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4445c8ef2ef3af33995bbf16f27bf') in 0.058436 seconds 
+  Import took 0.075520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.584027 seconds.
+  path: Assets/Fantasy Treasure Pack Lite/Texture/texture_04.png
+  artifactKey: Guid(65d1bbd44ddeb544084b5466963d4123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Treasure Pack Lite/Texture/texture_04.png using Guid(65d1bbd44ddeb544084b5466963d4123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad904bb295a27cd0d8e9fe3234e53d0a') in 0.037160 seconds 
+  Import took 0.045514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149957 seconds.
+  path: Assets/Fantasy Treasure Pack Lite/Texture/texture_10.png
+  artifactKey: Guid(047d557fe648d1e4d9ce1ede36e3b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Treasure Pack Lite/Texture/texture_10.png using Guid(047d557fe648d1e4d9ce1ede36e3b675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df3a156f7c3b5f490928c561ec9bbb') in 0.034275 seconds 
+  Import took 0.040328 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
