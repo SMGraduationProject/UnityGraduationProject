@@ -384,6 +384,7 @@ public class FirstPersonAIO : MonoBehaviour {
 
         #endregion
 
+
     }
 
     private void FixedUpdate(){
@@ -438,9 +439,99 @@ public class FirstPersonAIO : MonoBehaviour {
         MoveDirection = (transform.forward * inputXY.y * speed + transform.right * inputXY.x * walkSpeedInternal);
         }
 
-        
-            #region step logic
-                RaycastHit WT;
+        if (transform.position.x > 80 && transform.position.x < 82)
+        {
+            if (transform.position.z < 250 && transform.position.z > 249 && transform.position.y > 51 && transform.position.y < 52)
+            {
+                transform.position = new Vector3(622, 42, 257);
+
+            }
+
+        }
+
+        if (transform.position.x > 590 && transform.position.x < 591)
+        {
+            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 257);
+
+            }
+
+        }
+        else if (transform.position.x > 606 && transform.position.x < 622)
+        {
+            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 312);
+
+            }
+
+        }
+        else if (transform.position.x > 623 && transform.position.x < 642)
+        {
+            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 257);
+
+            }
+
+        }
+        else if (transform.position.x > 643 && transform.position.x < 657)
+        {
+            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 257);
+
+            }
+
+        }
+        if (transform.position.x > 590 && transform.position.x < 609)
+        {
+            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 312);
+
+            }
+
+        }
+        else if (transform.position.x > 611 && transform.position.x < 634)
+        {
+            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 312);
+
+            }
+
+        }
+        else if (transform.position.x > 635 && transform.position.x < 657)
+        {
+            if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 367);
+
+            }
+
+        }
+        if (transform.position.x > 590 && transform.position.x < 622)
+        {
+            if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(622, 42, 367);
+
+            }
+
+        }
+        else if (transform.position.x > 624 && transform.position.x < 657)
+        {
+            if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(67, 52, 248);
+
+            }
+
+        }
+        #region step logic
+        RaycastHit WT;
                 if(advanced.maxStepHeight > 0 && Physics.Raycast(transform.position - new Vector3(0,((capsule.height/2)*transform.localScale.y)-0.01f,0),MoveDirection,out WT,capsule.radius+0.15f,Physics.AllLayers,QueryTriggerInteraction.Ignore) && Vector3.Angle(WT.normal, Vector3.up)>88){
                     RaycastHit ST;
                     if(!Physics.Raycast(transform.position - new Vector3(0,((capsule.height/2)*transform.localScale.y)-(advanced.maxStepHeight),0),MoveDirection,out ST,capsule.radius+0.25f,Physics.AllLayers,QueryTriggerInteraction.Ignore)){
@@ -534,6 +625,7 @@ public class FirstPersonAIO : MonoBehaviour {
 
 
         #endregion
+
 
         #region Headbobbing Settings - FixedUpdate
         float yPos = 0;
