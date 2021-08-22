@@ -21,7 +21,11 @@ public class FakeTerminal : MonoBehaviour
     [Space][Space]
 
     public bool admin_RequestLogin;
+    public bool admin_RequestQuiz1;
     public string admin_Password;
+    public string quiz1_Answer;
+    public string quiz2_Answer;
+    public string quiz3_Answer;
     public bool admin_AutoLogOut;
 
     [Space]
@@ -42,9 +46,9 @@ public class FakeTerminal : MonoBehaviour
 
     [Space]
 
-    public GameObject player_CharController;
+    //public CharacterController player_CharController;
+    public GameObject g;
     public Camera player_Camera;
-    //private Script FirstPerson;
 
     [Space]
 
@@ -55,6 +59,7 @@ public class FakeTerminal : MonoBehaviour
     public string[] inputs_Help;
     public string[] inputs_Clear;
     public string[] inputs_Shutdown;
+    public string[] inputs_Answer;
 
     //----//
 
@@ -79,39 +84,43 @@ public class FakeTerminal : MonoBehaviour
     public string[] text_AccessGranted;
     public string[] text_ShutDownKey;
     public string[] text_ShutDownCommand;
+    public string[] text_quiz1;
+    public string[] text_quiz2;
+    public string[] text_quiz3;
+    public string[] text_Retry;
 
     //  INSERT HERE OTHER TEXTS
 
     //  If you want to add a new function,
     //  you can create a new string[] array and change text through the editor...
 
-        //  EXAMPLE:
-    
-        //  [...]
-        //
-        //  public string[] text_ShutDownCommand;
-        //
-        //  [...]
+    //  EXAMPLE:
+
+    //  [...]
+    //
+    //  public string[] text_ShutDownCommand;
+    //
+    //  [...]
 
     //  or manually add strings in your custom function.
 
-        //  EXAMPLE:
-    
-        //  [...]
-        //
-        //  void CustomFunction()
-        //  {
-        //
-        //      [...]
-        //
-        //      AddLineToList("EXAMPLE LINE 1");
-        //      AddLineToList("EXAMPLE LINE 2");
-        //
-        //      [...]
-        //
-        //  }
-        //
-        //  [...]
+    //  EXAMPLE:
+
+    //  [...]
+    //
+    //  void CustomFunction()
+    //  {
+    //
+    //      [...]
+    //
+    //      AddLineToList("EXAMPLE LINE 1");
+    //      AddLineToList("EXAMPLE LINE 2");
+    //
+    //      [...]
+    //
+    //  }
+    //
+    //  [...]
 
     //----//
 
@@ -143,8 +152,16 @@ public class FakeTerminal : MonoBehaviour
     private int fakeLine;
     //  Just esthetics. It's a sequential number shown in each line.
     private string lineIntro;
+    private string text_quiz_test;
+    private string quizIntro;
     //  This string contains the first chars of every line.
     private string originalPassword;
+    private string lineIntro2 = "First, you need to login into this system to solve some quiz and open the door.\n" +
+                        "The password is the right answer of this questions below.\n" +
+                        "What is the result of multiplying the number of legs of an octopus\n" +
+                        "by the number of legs of a squid by the number of horns of a giraffe?\n";
+    private string text_unlocked = "You solved all quiz well!\n" +
+        "Now the Door is opened. Shut Down this System and Go To Get The Key!\n";
 
     private bool terminalIsRunning;
     private bool terminalStarting;
@@ -154,6 +171,9 @@ public class FakeTerminal : MonoBehaviour
     private bool lockCamera;
     private bool oldPositionSaved;
     private bool logged;
+    private bool quiz1_unlocked;
+
+    private int quizNum = 0;
 
     private Vector3 oldPlayerPoVPosition;
     
@@ -165,13 +185,29 @@ public class FakeTerminal : MonoBehaviour
 
         if(admin_Password == "") // Default admin_Password is 12345.
         {
-            admin_Password = "12345"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
+            admin_Password = "400"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
         }
         
         if(("" + cursor_Char) == " ")
         {
             cursor_Char = '█';
         }
+
+        if (quiz1_Answer == "") // Default admin_Password is 12345.
+        {
+            quiz1_Answer = "50000"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
+        }
+
+        if (quiz2_Answer == "") // Default admin_Password is 12345.
+        {
+            quiz2_Answer = "60000"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
+        }
+
+        if (quiz3_Answer == "") // Default admin_Password is 12345.
+        {
+            quiz3_Answer = "70000"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
+        }
+
 
         originalPassword = admin_Password;
 
@@ -186,6 +222,7 @@ public class FakeTerminal : MonoBehaviour
 
         logged = false;
         oldPositionSaved = false;
+        quiz1_unlocked = false;
 
         lockCamera = false;
 
@@ -194,8 +231,6 @@ public class FakeTerminal : MonoBehaviour
         terminal_PoVOffset = new Vector3(terminal_PoVOffset.x, terminal_PoVOffset.y, -terminal_PoVOffset.z);
 
         StartCoroutine("TerminalIdlingCursor");
-
-
     }
 
     void LateUpdate()
@@ -221,9 +256,12 @@ public class FakeTerminal : MonoBehaviour
 
         if(lockCamera)
         {
-            if(player_CharController != null)
+            FirstPersonAIO player_CharController = g.GetComponent<FirstPersonAIO>();
+
+
+            if (player_CharController != null)
             {
-                player_CharController.SetActive(false);
+                player_CharController.playerCanMove = false;
             }
 
             if(!oldPositionSaved)
@@ -260,17 +298,19 @@ public class FakeTerminal : MonoBehaviour
 
     //----//
 
-    IEnumerator ExitTerminalTransition()
+    void ExitTerminalTransition()
     {
         lockCamera = false;
 
-        while(player_Camera.transform.position != oldPlayerPoVPosition)
-        {
-            player_Camera.transform.position = Vector3.Lerp(player_Camera.transform.position, oldPlayerPoVPosition, terminal_ShutDownTransitionSpeed * Time.deltaTime);
+        FirstPersonAIO player_CharController = g.GetComponent<FirstPersonAIO>();
+
+        // while(player_Camera.transform.position != oldPlayerPoVPosition)
+        // {
+        player_Camera.transform.position = Vector3.Lerp(player_Camera.transform.position, oldPlayerPoVPosition, terminal_ShutDownTransitionSpeed * Time.deltaTime);
             player_Camera.transform.rotation = Quaternion.Lerp(player_Camera.transform.rotation, oldPlayerPoVRotation, terminal_ShutDownTransitionSpeed * Time.deltaTime);
 
-            yield return new WaitForEndOfFrame();
-        }
+            //yield return new WaitForEndOfFrame();
+       // }
 
         player_Camera.transform.position = oldPlayerPoVPosition;
         player_Camera.transform.rotation = oldPlayerPoVRotation;
@@ -279,7 +319,7 @@ public class FakeTerminal : MonoBehaviour
 
         if(player_CharController != null)
         {
-            GameObject.Find("Map").transform.Find("FirstPerson-AIO").gameObject.SetActive(true);
+            player_CharController.playerCanMove = true;
         }
     }
 
@@ -345,10 +385,11 @@ public class FakeTerminal : MonoBehaviour
                         outputText[actualLine] = outputText[actualLine].ToUpper();
                     }
 
-                    if(outputText[actualLine].Replace("" + cursor_Char, "").Substring(lineIntro.Length) == admin_Password)
+                    if (outputText[actualLine].Replace("" + cursor_Char, "").Substring(lineIntro.Length) == admin_Password)
                     {
                         logged = true;
                         PrintAccessGranted();
+                        quizNum = 1;
                     }
                     else
                     {
@@ -359,7 +400,7 @@ public class FakeTerminal : MonoBehaviour
                 {
                     bool printError = true;
 
-                    if(outputText[actualLine].Replace("" + cursor_Char, "").Length > lineIntro.Length)
+                    if (outputText[actualLine].Replace("" + cursor_Char, "").Length > lineIntro.Length)
                     {
                         //----//
 
@@ -447,9 +488,7 @@ public class FakeTerminal : MonoBehaviour
                                 }
                             }
                         }
-
                         PrintError(printError);
-                
                     }
                 }
 
@@ -457,14 +496,37 @@ public class FakeTerminal : MonoBehaviour
                 {
                     lineIntro = "Insert password: ";
                     fakeLine = -1;
+
+                    AddLineToList(lineIntro2);
+                    AddLineToList(lineIntro);
+                }
+                else if(logged && (quizNum ==1))
+                {
+                    text_quiz_test = "What???\n";
+                    quizIntro = "Insert answer: ";
+
+                    AddLineToList(text_quiz_test);
+                    AddLineToList(quizIntro);
+
+                    if (outputText[actualLine].Length >= quizIntro.Length)
+                    {
+                        if (outputText[actualLine].Replace("" + cursor_Char, "").Substring(quizIntro.Length) == quiz1_Answer)
+                        {
+                            PrintQuiz2();
+                        }
+                        else if (outputText[actualLine].Replace("" + cursor_Char, "").Substring(quizIntro.Length) != quiz1_Answer)
+                        {
+                            PrintRetry();
+                        }
+                    }
+
                 }
                 else
                 {
                     fakeLine++;
                     lineIntro = "" + fakeLine + ".  ";
+                    AddLineToList(lineIntro);
                 }
-
-                AddLineToList(lineIntro);
 
             }
             else
@@ -512,21 +574,25 @@ public class FakeTerminal : MonoBehaviour
 
         AddLineToList("");
 
-        if(!logged && admin_RequestLogin)
-        {
-            lineIntro = "Insert password: ";
+            if (!logged && admin_RequestLogin)
+            {
+                lineIntro = "Insert password: ";
+
+            AddLineToList(lineIntro2);
+            AddLineToList(lineIntro);
         }
-        else if(logged && admin_RequestLogin)
-        {
-            PrintAccessGranted();
-            lineIntro = "" + fakeLine + ".  ";
-        }
+        else if (logged && admin_RequestLogin)
+            {
+                PrintAccessGranted();
+                lineIntro = "" + fakeLine + ".  ";
+            }
         else if(!admin_RequestLogin)
         {
             lineIntro = "" + fakeLine + ".  ";
         }
 
-        AddLineToList(lineIntro);
+        //AddLineToList(lineIntro2);
+        //AddLineToList(lineIntro);
 
         screen.text = GenerateTextFromList(outputText);
 
@@ -646,8 +712,40 @@ public class FakeTerminal : MonoBehaviour
                 AddLineToList(line);
             }
         }
-    }  
+    }
 
+    private void PrintQuiz1()
+    {
+        foreach(string line in text_quiz1)
+        {
+            AddLineToList(line);
+        }
+    }
+
+    private void PrintQuiz2()
+    {
+        foreach (string line in text_quiz2)
+        {
+            AddLineToList(line);
+        }
+    }
+
+    private void PrintQuiz3()
+    {
+        foreach (string line in text_quiz3)
+        {
+            AddLineToList(line);
+        }
+    }
+
+ /*   private void PrintUnlocked()
+    {
+        foreach(string line in text_unlocked)
+        {
+            AddLineToList(line);
+        }
+    }
+ */
     private void PrintAccessGranted()
     {
         foreach(string line in text_AccessGranted)
@@ -667,6 +765,14 @@ public class FakeTerminal : MonoBehaviour
     private void PrintCustomText(int custom_Index)
     {
         foreach(string line in custom_Texts[custom_Index].text_Input)
+        {
+            AddLineToList(line);
+        }
+    }
+
+    private void PrintRetry()
+    {
+        foreach (string line in text_Retry)
         {
             AddLineToList(line);
         }
