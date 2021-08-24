@@ -91,7 +91,7 @@ public class FirstPersonAIO : MonoBehaviour {
     public bool enableCameraShake=false;
     internal Vector3 cameraStartingPosition;
     float baseCamFOV;
-    
+    int JHcount = 0;
 
     public bool autoCrosshair = false;
     public bool drawStaminaMeter = true;
@@ -439,94 +439,95 @@ public class FirstPersonAIO : MonoBehaviour {
         MoveDirection = (transform.forward * inputXY.y * speed + transform.right * inputXY.x * walkSpeedInternal);
         }
 
-        if (transform.position.x > 80 && transform.position.x < 82)
+        if (transform.position.x >49  && transform.position.x < 50)
         {
-            if (transform.position.z < 250 && transform.position.z > 249 && transform.position.y > 51 && transform.position.y < 52)
+            if (transform.position.z < 249 && transform.position.z > 248 && transform.position.y > 51 && transform.position.y < 52)
             {
-                transform.position = new Vector3(622, 42, 257);
+                transform.position = new Vector3(590, 42, 257);
 
             }
 
         }
 
-        if (transform.position.x > 590 && transform.position.x < 591)
-        {
-            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
-            {
-                transform.position = new Vector3(622, 42, 257);
-
-            }
-
-        }
-        else if (transform.position.x > 606 && transform.position.x < 622)
+        if (transform.position.x > 558 && transform.position.x < 572 )
         {
             if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 312);
+                transform.position = new Vector3(590, 42, 257);
 
             }
 
         }
-        else if (transform.position.x > 623 && transform.position.x < 642)
+        else if (transform.position.x > 573 && transform.position.x < 590)
         {
             if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 257);
+                transform.position = new Vector3(590, 42, 312);
 
             }
 
         }
-        else if (transform.position.x > 643 && transform.position.x < 657)
+        else if (transform.position.x > 591 && transform.position.x < 610)
         {
             if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 257);
+                transform.position = new Vector3(590, 42, 257);
 
             }
 
         }
-        if (transform.position.x > 590 && transform.position.x < 609)
+        else if (transform.position.x > 611 && transform.position.x < 625)
+        {
+            if (transform.position.z < 300 && transform.position.z > 299 && transform.position.y > 41 && transform.position.y < 42)
+            {
+                transform.position = new Vector3(590, 42, 257);
+
+            }
+
+        }
+        if (transform.position.x > 558 && transform.position.x < 578)
         {
             if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 312);
+                transform.position = new Vector3(590, 42, 312);
 
             }
 
         }
-        else if (transform.position.x > 611 && transform.position.x < 634)
+        else if (transform.position.x > 579 && transform.position.x < 602)
         {
             if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 312);
+                transform.position = new Vector3(590, 42, 312);
 
             }
 
         }
-        else if (transform.position.x > 635 && transform.position.x < 657)
+        else if (transform.position.x > 603 && transform.position.x < 625)
         {
             if (transform.position.z < 353 && transform.position.z > 350 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 367);
+                transform.position = new Vector3(590, 42, 367);
+       
 
             }
 
         }
-        if (transform.position.x > 590 && transform.position.x < 622)
+        if (transform.position.x > 558 && transform.position.x < 590)
         {
             if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(622, 42, 367);
+                transform.position = new Vector3(590, 42, 367);
 
             }
 
         }
-        else if (transform.position.x > 624 && transform.position.x < 657)
+        else if (transform.position.x > 592 && transform.position.x < 625)
         {
             if (transform.position.z < 410 && transform.position.z > 407 && transform.position.y > 41 && transform.position.y < 42)
             {
-                transform.position = new Vector3(67, 52, 248);
-
+                transform.position = new Vector3(35, 52, 248);
+                
             }
 
         }
