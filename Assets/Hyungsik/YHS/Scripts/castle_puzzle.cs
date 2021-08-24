@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class castle_puzzle : MonoBehaviour
+public class castle_puzzle : CodeLock
 {
     public GameObject one;
     public GameObject two;
