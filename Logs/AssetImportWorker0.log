@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kwon/Desktop/8/25Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64212
+Successfully changed project path to: C:/Users/kwon/Desktop/8/25Project
+C:/Users/kwon/Desktop/8/25Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kwon/Desktop/8/25Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   25.20.100.6472
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008537 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.514 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014122 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.616 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1685 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 4.637000 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.072300 ms MarkObjects: 3.503600 ms  DeleteObjects: 0.759400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Yohan/AN Interactive Physical Door Pack
+  artifactKey: Guid(740fe9994fe85914e98ee4ddd6d6b69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yohan/AN Interactive Physical Door Pack using Guid(740fe9994fe85914e98ee4ddd6d6b69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aed41a0b101a22057b4d7ef0e79b104') in 0.009724 seconds 
+  Import took 0.013179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.506550 seconds.
+  path: Assets/Yohan/port_reward_chest.cs
+  artifactKey: Guid(9281ef3e375873e4198e840091cba963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yohan/port_reward_chest.cs using Guid(9281ef3e375873e4198e840091cba963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353581941b7f33c80460e959cc61f386') in 0.093707 seconds 
+  Import took 0.098210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013425 seconds.
+  path: Assets/Yohan/port_reward_chest.cs
+  artifactKey: Guid(9281ef3e375873e4198e840091cba963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yohan/port_reward_chest.cs using Guid(9281ef3e375873e4198e840091cba963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353581941b7f33c80460e959cc61f386') in 0.007872 seconds 
+  Import took 0.012458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 531.071596 seconds.
+  path: Assets/Yohan/port_reward_key.cs
+  artifactKey: Guid(72588b7a6d10a39498e0d496b184ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yohan/port_reward_key.cs using Guid(72588b7a6d10a39498e0d496b184ffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54fc0cb3604c6ce013629b5cf972d84') in 0.030978 seconds 
+  Import took 0.280693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 874.229184 seconds.
+  path: Assets/Yohan/New Material.mat
+  artifactKey: Guid(8e8926d763f7b6344be382bfb6a79a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yohan/New Material.mat using Guid(8e8926d763f7b6344be382bfb6a79a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da4db1b83da204902790999d0a647b6') in 1.621443 seconds 
+  Import took 1.629802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.297863 seconds.
+  path: Assets/sungwoo/New Material.mat
+  artifactKey: Guid(a2ba4b09aed291647914fae41a1f8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/New Material.mat using Guid(a2ba4b09aed291647914fae41a1f8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df83014dce4f791eca3626c7d807e460') in 0.025850 seconds 
+  Import took 0.029677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1384.836946 seconds.
+  path: Assets/sungwoo/New Material.mat
+  artifactKey: Guid(a2ba4b09aed291647914fae41a1f8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/New Material.mat using Guid(a2ba4b09aed291647914fae41a1f8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87b2b5cb702bd24d1fb0671f141ee5') in 0.053870 seconds 
+  Import took 0.061403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 479.521959 seconds.
+  path: Assets/sungwoo/SW_keyscript.cs
+  artifactKey: Guid(4b6c1517a602c16429993bf1d6d5d12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/SW_keyscript.cs using Guid(4b6c1517a602c16429993bf1d6d5d12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48e306484e2ef567379f79c9745a53d') in 0.008417 seconds 
+  Import took 0.061531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.147964 seconds.
+  path: Assets/Hyungsik/Assets_From_Store/TreasureChest_01/LODprefab
+  artifactKey: Guid(1d1ea03f06a22594c82bbec993bdc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyungsik/Assets_From_Store/TreasureChest_01/LODprefab using Guid(1d1ea03f06a22594c82bbec993bdc54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5e20f96f8bb619b675a9f44daaebca') in 0.040435 seconds 
+  Import took 0.045641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.603594 seconds.
+  path: Assets/sungwoo/Cartoon_lockers
+  artifactKey: Guid(2b1f49db29e4ca6428233de28195ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers using Guid(2b1f49db29e4ca6428233de28195ef67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d9f357e51f7427ccee13f43a9dcbf3') in 0.034431 seconds 
+  Import took 0.040779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.535552 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Materials
+  artifactKey: Guid(26178f5264e479c43af0adc4853d9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Materials using Guid(26178f5264e479c43af0adc4853d9f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1edd30b99b453ae0f29ca057b1b2931') in 0.031714 seconds 
+  Import took 0.052584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437077 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs
+  artifactKey: Guid(c988eb86c1015cf448ec0a488050d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs using Guid(c988eb86c1015cf448ec0a488050d90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e67f1b3371ec07b2cef7eef7e76dd3') in 0.034069 seconds 
+  Import took 0.038925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043968 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_big_blue.prefab
+  artifactKey: Guid(dad1eebfef725e24e807700858128a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_big_blue.prefab using Guid(dad1eebfef725e24e807700858128a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61536b4dbb2295d02164a2222a33901') in 0.171998 seconds 
+  Import took 0.177146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_white_02.prefab
+  artifactKey: Guid(6591912cb7d60f044b4f019ccce5b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_white_02.prefab using Guid(6591912cb7d60f044b4f019ccce5b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437e9694defdeb2e0ebed2a8d11c5a5e') in 0.053183 seconds 
+  Import took 0.057304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/lockers_green.prefab
+  artifactKey: Guid(369ec19814cbee54f8d5c82f3877391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/lockers_green.prefab using Guid(369ec19814cbee54f8d5c82f3877391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be2b7cc351db97ea63b3e1360f99ad') in 0.046666 seconds 
+  Import took 0.052992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_01.prefab
+  artifactKey: Guid(7021eca0d3922af40a3ebae1e807e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_01.prefab using Guid(7021eca0d3922af40a3ebae1e807e5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7845492722e64988f745d0cbe404d025') in 0.056457 seconds 
+  Import took 0.060713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_white_01.prefab
+  artifactKey: Guid(b8d9b3f7a23d41b48934f8862619117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_white_01.prefab using Guid(b8d9b3f7a23d41b48934f8862619117e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240bc2a01665bb5eb62f5462242ff7ce') in 0.031797 seconds 
+  Import took 0.036633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/lockers_orange.prefab
+  artifactKey: Guid(ee4431207df44cf4086296dba601c9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/lockers_orange.prefab using Guid(ee4431207df44cf4086296dba601c9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6600b6c9f4b70ed113e1d0cd72254fc2') in 0.053148 seconds 
+  Import took 0.059504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_02.prefab
+  artifactKey: Guid(c90816ae38c7ef64fa9113ce59c41243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_02.prefab using Guid(c90816ae38c7ef64fa9113ce59c41243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd452bd9706bcb99b73468a6cede63d') in 0.037760 seconds 
+  Import took 0.043381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_big_green.prefab
+  artifactKey: Guid(fbb03945e1a70f84fb400862e9814595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_big_green.prefab using Guid(fbb03945e1a70f84fb400862e9814595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332df36c0a9752fe9045f99af912a24f') in 0.065500 seconds 
+  Import took 0.071085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022730 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_02.prefab
+  artifactKey: Guid(c90816ae38c7ef64fa9113ce59c41243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Prefabs/locker_small_green_02.prefab using Guid(c90816ae38c7ef64fa9113ce59c41243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd452bd9706bcb99b73468a6cede63d') in 0.030898 seconds 
+  Import took 0.062850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.659691 seconds.
+  path: Assets/sungwoo/Cartoon_lockers/Materials/lockers_02.mat
+  artifactKey: Guid(f86c6976965def847834a894a941a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Cartoon_lockers/Materials/lockers_02.mat using Guid(f86c6976965def847834a894a941a024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1825df3663e13f3dfb02743551d35a97') in 0.043555 seconds 
+  Import took 0.048404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1016.009257 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/spind.fbx
+  artifactKey: Guid(f8a4903bf11aefb4f8358b11034c57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/spind.fbx using Guid(f8a4903bf11aefb4f8358b11034c57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25467670c4f95aba6c6f4f8a24fd173c') in 0.416398 seconds 
+  Import took 0.421076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.003578 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials
+  artifactKey: Guid(b83a44c6b291bae4b8db0f835c86a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials using Guid(b83a44c6b291bae4b8db0f835c86a795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49b72421a494babf4361d21daadebd3') in 0.075787 seconds 
+  Import took 0.236412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a_spec.mat
+  artifactKey: Guid(0cad34a3ba78d4e4bbb86c874b15e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a_spec.mat using Guid(0cad34a3ba78d4e4bbb86c874b15e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ed46f90d0d9cddadf5dbec497ea37d') in 0.062575 seconds 
+  Import took 0.300932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01b.mat
+  artifactKey: Guid(fc9b53b42b726484b9c5c7c0ae84face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01b.mat using Guid(fc9b53b42b726484b9c5c7c0ae84face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6bfc234e25d906c857cca6739aa6e9') in 0.154016 seconds 
+  Import took 0.185931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003419 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/colmesh.mat
+  artifactKey: Guid(71b03a93ba1077c4787be05e53d27698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/colmesh.mat using Guid(71b03a93ba1077c4787be05e53d27698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd017ba01f12d3d53e78bef8cca9546c4') in 0.088371 seconds 
+  Import took 0.101473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a.mat
+  artifactKey: Guid(cd3992409e29a6d44bcdb8584c716d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a.mat using Guid(cd3992409e29a6d44bcdb8584c716d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c57562709c621f88568178f436043d') in 0.096336 seconds 
+  Import took 0.113245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01c.mat
+  artifactKey: Guid(c200cdd1321cd264e8840f0b9d06e6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01c.mat using Guid(c200cdd1321cd264e8840f0b9d06e6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e5237a1772e92f5c45bd9115e6d16d') in 0.243741 seconds 
+  Import took 0.260957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a.mat
+  artifactKey: Guid(cd3992409e29a6d44bcdb8584c716d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Locker/3dobjects_props/Materials/spind_01a.mat using Guid(cd3992409e29a6d44bcdb8584c716d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c57562709c621f88568178f436043d') in 0.098395 seconds 
+  Import took 0.114290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.729791 seconds.
+  path: Assets/sungwoo/Key/Prefabs/rust_key.prefab
+  artifactKey: Guid(f11d3f3b64b1464459bcede13d2a5aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Key/Prefabs/rust_key.prefab using Guid(f11d3f3b64b1464459bcede13d2a5aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd101835b60a9d82a641445f85ace1bbf') in 0.060385 seconds 
+  Import took 0.066281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011547 seconds.
+  path: Assets/sungwoo/Key/Mesh/rust_key.FBX
+  artifactKey: Guid(63f0fe03693b55f49a1f6cf7eb11d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Key/Mesh/rust_key.FBX using Guid(63f0fe03693b55f49a1f6cf7eb11d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b401514dd87e2a932888e59d2c0058') in 0.046516 seconds 
+  Import took 0.052979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.702612 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab
+  artifactKey: Guid(c05c37f206b882d4ebf08dd0f2f5c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab using Guid(c05c37f206b882d4ebf08dd0f2f5c82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f59a4ad08f3da4c0c9cda1091d602e') in 0.024347 seconds 
+  Import took 0.030936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049562 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/gold_01.prefab
+  artifactKey: Guid(c7a576da05c747044883c5e87e3ad15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/gold_01.prefab using Guid(c7a576da05c747044883c5e87e3ad15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5af085a894de921180df7c972b5329') in 0.105162 seconds 
+  Import took 0.111859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/sack_010.prefab
+  artifactKey: Guid(1a56d136e1f6aff49abd6200d24524bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Prefab/sack_010.prefab using Guid(1a56d136e1f6aff49abd6200d24524bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987a86d15d9d6f69be089439fba53aca') in 0.056122 seconds 
+  Import took 0.063055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.810405 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_04.mat
+  artifactKey: Guid(5c0a6148f12183740a09c51414fd129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_04.mat using Guid(5c0a6148f12183740a09c51414fd129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba7af10580af12b783afda8d18b9f6') in 0.026055 seconds 
+  Import took 0.031010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_09.mat
+  artifactKey: Guid(8edf00d48a58bd241a47d8fbf0a6db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_09.mat using Guid(8edf00d48a58bd241a47d8fbf0a6db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08b51be147fe9756e38a76cd9253d53') in 0.080426 seconds 
+  Import took 0.085895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_10.mat
+  artifactKey: Guid(d7c78396b7f54ac4e961fefd839c091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sungwoo/Fantasy Treasure Pack Lite/Mesh/Materials/texture_10.mat using Guid(d7c78396b7f54ac4e961fefd839c091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e4b201545c5e3fbc45504c681ea169') in 0.031877 seconds 
+  Import took 0.040592 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.550 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 116.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2193.
+Total: 5.135200 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.078400 ms MarkObjects: 4.033400 ms  DeleteObjects: 0.795800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.160 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1595 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 116.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2196.
+Total: 6.715700 ms (FindLiveObjects: 0.274500 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.819600 ms  DeleteObjects: 3.545300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
