@@ -48,6 +48,7 @@ public class FakeTerminal : MonoBehaviour
 
     //public CharacterController player_CharController;
     public GameObject g;
+    public GameObject d;
     public Camera player_Camera;
 
     [Space]
@@ -147,6 +148,9 @@ public class FakeTerminal : MonoBehaviour
 
     private Text screen;
 
+    public static int port_chest = 0;
+    public static int port_key = 0;
+
     private int actualLine;
     //  This value goes from 0 to text_MaxStringsOnScreen - 1 (it's the list index).
     private int fakeLine;
@@ -208,6 +212,8 @@ public class FakeTerminal : MonoBehaviour
             quiz3_Answer = "70000"; // It's also the combination on my luggage... https://www.youtube.com/watch?v=a6iW-8xPw3k
         }
 
+        AN_DoorScript door_Controller = d.GetComponent<AN_DoorScript>();
+        door_Controller.enabled = false;
 
         originalPassword = admin_Password;
 
@@ -349,6 +355,8 @@ public class FakeTerminal : MonoBehaviour
 
     private void TerminalInput()
     {
+        AN_DoorScript door_Controller = d.GetComponent<AN_DoorScript>();
+
         foreach (char c in Input.inputString)
         {
             if (c == '\b') //   Has backspace/delete been pressed?
@@ -389,6 +397,8 @@ public class FakeTerminal : MonoBehaviour
                     {
                         logged = true;
                         PrintAccessGranted();
+                        door_Controller.enabled = true;
+                        port_chest = 1;
                         quizNum = 1;
                     }
                     else

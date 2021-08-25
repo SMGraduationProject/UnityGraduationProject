@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Hyungsik/Hyungsik's_Map/Operation_G_scene.unity
+    guid: a9a424e18ec7e9c44a6babc6f9aecb74
+  - enabled: 1
+    path: Assets/SlimUI/Modern Menu 1/Scenes/Menu_Scene.unity
+    guid: 829a86ba161cdd840842063447f41aab
   m_configObjects: {}
