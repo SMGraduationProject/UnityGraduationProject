@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class castle_puzzle : CodeLock
+public class castle_puzzle : MonoBehaviour
 {
     public GameObject one;
     public GameObject two;
@@ -14,7 +14,6 @@ public class castle_puzzle : CodeLock
     public GameObject eight;
     public GameObject nine;
     public GameObject button;
-    public GameObject item;
 
     int[] answer = new int[3];
     int[] insert = new int[3];
@@ -33,18 +32,11 @@ public class castle_puzzle : CodeLock
 
     int wrong = 0;
 
-    int opened = 0;
-
+    public static int castle_chest = 0;
     public static int castle_key = 0;
 
     public GameObject target;
 
-    private Animator animator;
-
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
 
     public GameObject GetClickedObject()
     {
@@ -354,13 +346,8 @@ public class castle_puzzle : CodeLock
                         c8 = 1;
                         c9 = 1;
 
-                        if (opened == 0)
-                        {
-                            animator.SetTrigger("Activate");
-                            opened = 1;
-                        }
-
-                        castle_key = 1;
+                        castle_chest = 1;
+                        
                     }
                 }
             }
