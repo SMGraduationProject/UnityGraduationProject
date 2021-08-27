@@ -4,27 +4,29 @@ using UnityEngine;
 
 public class lockerpw : MonoBehaviour
 {
-    int pw;
-    int inputCode;
-
+    int codeLength;
+    int placeInCode;
+    public GameObject SW_item;
+    public GameObject SW_target;
     public string code = "";
-    public string secondCode;
-
+    public string attemptedCode;
+    public static int SW_key = 0;
     public Transform toOpen;
 
     private void Start()
     {
-        pw = code.Length;
+        codeLength = code.Length;
     }
     void CheckCode()
     {
-        if (secondCode == code)
+        if (attemptedCode == code)
         {
             StartCoroutine(Open());
+            SW_key = 1;
         }
         else
         {
-            Debug.Log("False");
+            Debug.Log("Wrong Code");
         }
     }
 
@@ -32,24 +34,38 @@ public class lockerpw : MonoBehaviour
     {
         toOpen.Rotate(new Vector3(0, 90, 0), Space.World);
 
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
 
         toOpen.Rotate(new Vector3(0, -90, 0), Space.World);
     }
 
     public void SetValue(string value)
     {
-        inputCode++;
-        if (inputCode <= pw)
+        placeInCode++;
+        if (placeInCode <= codeLength)
         {
-            secondCode += value;
+            attemptedCode += value;
         }
 
-        if (inputCode == pw)
+        if (placeInCode == codeLength)
         {
             CheckCode();
-            secondCode = "";
-            inputCode = 0;
+            attemptedCode = "";
+            placeInCode = 0;
         }
+    }
+     public GameObject SW_GetClickedObject()
+    {
+        RaycastHit hit;
+        GameObject GW_target = null;
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); //마우스 포인트 근처 좌표를 만든다. 
+
+        if (true == (Physics.Raycast(ray.origin, ray.direction * 10, out hit)))   //마우스 근처에 오브젝트가 있는지 확인
+        {
+            //있으면 오브젝트를 저장한다.
+            SW_target = hit.collider.gameObject;
+        }
+        return SW_target;
     }
 }
