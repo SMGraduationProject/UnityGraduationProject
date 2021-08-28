@@ -209,9 +209,8 @@ public class castle_boat : MonoBehaviour
                 player_pos = player.transform.position;
                 if (player_pos.z < end_pos.z)
                 {
-                    Debug.Log("Hello!");
-                    player.transform.position = Vector3.MoveTowards(player.transform.position, end_pos, boat_speed * Time.deltaTime);
-                    //player.transform.position = end_pos;
+                    //player.transform.position = Vector3.MoveTowards(player.transform.position, end_pos, boat_speed * Time.deltaTime);
+                    player.transform.position = end_pos;
                 }
                 else
                 {
