@@ -27,12 +27,19 @@ public class key_JH : CodeLock
         if (Input.GetMouseButtonUp(0))
         {
             GW_target = GW_GetClickedObject();
-            if (GW_target.tag=="key")
+            if (GW_target.tag == "key")
             {
                 Destroy(GW_target);
             }
         }
-
-
+    }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.tag == "Player")
+        {
+            Debug.Log("충돌");
+            Destroy(gameObject);
+            keymove.currentscore++;
+        }
     }
 }
