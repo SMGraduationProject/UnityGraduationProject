@@ -25,6 +25,8 @@ public class CodeLock : MonoBehaviour
         {
             StartCoroutine(Open());
             GW_key = 1;
+            //Debug.Log("tempt");
+            //keymove.currentscore = keymove.currentscore - 1;
         }
         else
         {

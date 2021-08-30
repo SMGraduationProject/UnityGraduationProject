@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GWkey_script : CodeLock
 {
+    public GameObject key;
     Vector3 GW_key_pos;
-
+    Vector3 castle_key_cur_pos;
+    public static int exit;
     void Key_Animation()
     {
         GW_key_pos = this.transform.position;
@@ -21,7 +23,7 @@ public class GWkey_script : CodeLock
     // Start is called before the first frame update
     void Start()
     {
-
+        GW_key_pos = this.transform.position;
     }
 
     // Update is called once per frame
@@ -29,17 +31,25 @@ public class GWkey_script : CodeLock
     {
         if (GW_key == 1)
         {
+            //Debug.Log("巩力0");
             Key_Animation();
-
-            if (Input.GetMouseButtonUp(0))
+            //Debug.Log("巩力1");
+            if (Input.GetMouseButtonDown(0))
             {
+                //Debug.Log("巩力2");
                 GW_target = GW_GetClickedObject();
-                if (GW_target.Equals(GW_item))
+                //Debug.Log("巩力3");
+                if (GW_target.Equals(key))
                 {
-                    Destroy(GW_item);
+                    //Debug.Log("巩力4");
+                    Destroy(key);
+                   //Debug.Log("巩力5");
+                    keymove.currentscore++;
+                    //Debug.Log("巩力6");
                 }
             }
         }
+
     }
 }
 
