@@ -60,6 +60,7 @@
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\OptionsMenu.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeEditor.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\juhyeok\juhyeok_exit.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckSFXVolume.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\SimplyTriviaData\Helpers\JsonHelper.cs" />
@@ -87,7 +88,10 @@
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ResetDemo.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\SmoothFollow.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\Yohan\Yohan_enter.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\SimplyTriviaData\TriviaEnums.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\sungwoo\sungwoo_exit.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\Yohan\Yohan_exit.cs" />
     <Compile Include="Assets\Yohan\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
@@ -103,6 +107,7 @@
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\_ExampleProjects\MobileAndWeb\Scripts\TriviaManager.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\castle_puzzle_enter.cs" />
     <Compile Include="Assets\sungwoo\lockerpw.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
@@ -114,6 +119,7 @@
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\keunwoo\keunwoo_exit.cs" />
     <Compile Include="Assets\New Folder\keymove.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
     <Compile Include="Assets\sungwoo\SW_keyscript.cs" />
@@ -127,6 +133,7 @@
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\_ExampleProjects\MobileAndWeb\Scripts\TimerManager.cs" />
     <Compile Include="Assets\Yohan\ProceduralImagination\FakeTerminal\Scripts\DemoScripts\CustomFunctions.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\juhyeok\juhyeok_enter.cs" />
     <Compile Include="Assets\Hyungsik\Hyungsik&apos;s_Map\Amusement Park\Scripts\SimpleMover.cs" />
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
@@ -149,6 +156,7 @@
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\ThemeUI.cs" />
     <Compile Include="Assets\Keunwoo\GWkey_script.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\keunwoo\keunwoo_enter.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\SimplyTriviaData\Helpers\TriviaHelpers.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\SimplyTriviaData\TriviaClient.cs" />
     <Compile Include="Assets\Keunwoo\Plugins\Carl Halstead\SimplyTrivia\SimplyTriviaData\Json\TriviaResponse.cs" />
@@ -166,6 +174,7 @@
     <Compile Include="Assets\BrokenVector\UltimateDungeonPack\Scenes\Demo\FPControls\Scripts\CharacterController.cs" />
     <Compile Include="Assets\Hyungsik\YHS\Scripts\castle_boat.cs" />
     <Compile Include="Assets\BrokenVector\LowPolyBrickHouses\Scripts\ModelCustomizer.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\sungwoo\sungwoo_enter.cs" />
     <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Hyungsik\Assets_From_Store\Keypad\Script\Playsound.cs" />
@@ -198,15 +207,6 @@
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\Keunwoo\EnemyAI.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\Yohan\Yohan_exit.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\Yohan\Yohan_enter.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\keunwoo\keunwoo_exit.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\castle_puzzle_enter.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\keunwoo\keunwoo_enter.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\juhyeok\juhyeok_exit.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\sungwoo\sungwoo_enter.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\juhyeok\juhyeok_enter.cs" />
-    <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\sungwoo\sungwoo_exit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hyungsik\Hyungsik&apos;s_Map\Amusement Park\Third Party Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

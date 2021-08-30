@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637657452449564631
+      ticks: 637658758511500170
     m_Hash: 4064609028
   m_LockFileStatus:
     m_FilePath: D:/3. Programming/GitHub/SMGraduationProject/UnityGraduationProject/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637657452449574602
+      ticks: 637658758511510163
     m_Hash: 3234660988
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
