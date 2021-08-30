@@ -14,7 +14,7 @@ public class gameover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(keymove.currentscore == 3)
+        if(keymove.currentscore == 5)
         {
 	Debug.Log("게임 종료");
             SceneManager.LoadScene("GameOver1");

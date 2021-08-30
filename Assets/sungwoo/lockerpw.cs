@@ -26,7 +26,7 @@ public class lockerpw : MonoBehaviour
         }
         else
         {
-            Debug.Log("Wrong Code");
+            Debug.Log("잘못된 코드입니다");
         }
     }
 
@@ -57,7 +57,7 @@ public class lockerpw : MonoBehaviour
      public GameObject SW_GetClickedObject()
     {
         RaycastHit hit;
-        GameObject GW_target = null;
+        GameObject SW_target = null;
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); //마우스 포인트 근처 좌표를 만든다. 
 
