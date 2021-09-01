@@ -94,6 +94,7 @@
     <Compile Include="Assets\Hyungsik\YHS\Scripts\Turnstile_Scripts\Yohan\Yohan_exit.cs" />
     <Compile Include="Assets\Yohan\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Keunwoo\GameoverScene.cs" />
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\TimedObjectActivator.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
@@ -207,6 +208,7 @@
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\Keunwoo\EnemyAI.cs" />
+    <Compile Include="Assets\Hyungsik\Map_Image\Map_Image_Files\Map_Mark.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hyungsik\Hyungsik&apos;s_Map\Amusement Park\Third Party Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
