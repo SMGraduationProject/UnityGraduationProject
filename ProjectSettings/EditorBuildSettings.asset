@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/New Folder/GameOver1.unity
     guid: ad0e82aafcc89bc47aa9f6506cd2d780
+  - enabled: 1
+    path: Assets/Keunwoo/Gameover2.unity
+    guid: 195ba4677883bce47be04520e448e931
   m_configObjects: {}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -30,4 +31,13 @@ public class EnemyAI : MonoBehaviour
     {
 
     }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.tag == "Player")
+        {
+            //Debug.Log("test");
+            SceneManager.LoadScene("GameOver2");
+        }
+    }
+
 }
