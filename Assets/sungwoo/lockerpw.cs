@@ -10,7 +10,6 @@ public class lockerpw : MonoBehaviour
     public GameObject SW_target;
     public string code = "";
     public string attemptedCode;
-    public static int SW_key = 0;
     public Transform toOpen;
 
     private void Start()
@@ -22,7 +21,6 @@ public class lockerpw : MonoBehaviour
         if (attemptedCode == code)
         {
             StartCoroutine(Open());
-            SW_key = 1;
         }
         else
         {
