@@ -10,7 +10,7 @@ public class GameoverScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("Operation_G_scene");
+            SceneManager.LoadScene(0);
         }
     }
 }
