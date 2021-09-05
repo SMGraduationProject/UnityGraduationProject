@@ -72,6 +72,7 @@ public class port_reward_key : port_reward_chest      // 상속할 스크립트는 castl
                 {
                     Destroy(key);       // 키를 삭제하기 위한 코드. 키의 갯수를 추가하는 코드는 아래에 넣으면 될겁니다.
                     // map_key = map_key + 1; 이런식으로 말입니다.
+                    keymove.currentscore++;
                     exit = 1;           // 개찰구 작동을 위해 전역변수에 1 추가. 개찰구 관련 코드는 별도로 추가할것입니다.
                 }
             }
