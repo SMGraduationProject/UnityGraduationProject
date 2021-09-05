@@ -76,6 +76,7 @@
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\Yohan\port_reward_key.cs" />
+    <Compile Include="Assets\New Folder\Change_Scene.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Utility\PlatformSpecificContent.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
@@ -243,7 +244,6 @@
     <Compile Include="Assets\Old Sea Port\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\Keunwoo\EnemyAI.cs" />
-    <Compile Include="Assets\New Folder\Change_Scene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hyungsik\Hyungsik&apos;s_Map\Amusement Park\Third Party Assets\POLY STYLE - Vegetation Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

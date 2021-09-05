@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -142,10 +142,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 144
+  controlID: 103
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 105
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.70709354, y: 0, z: 0, w: 0.70712006}
+    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
     m_Target: 2.0247025
     speed: 2
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c00d0300
-      m_LastClickedID: 200128
-      m_ExpandedIDs: d6c0ffff26fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b4bfffffeaf9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -721,15 +721,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\3. Programming\\GitHub\\SMGraduationProject\\UnityGraduationProject    
-    (1) \uC870\uBA85 \uBBF8\uD574\uACB0"
+  m_LastProjectPath: D:\3. Programming\GitHub\SMGraduationProject\UnityGraduationProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 3a050400
-    m_LastClickedID: 263482
-    m_ExpandedIDs: 00000000f8040400fa040400fc040400fe04040000050400020504000405040006050400080504000a0504000c0504000e05040010050400120504001405040016050400180504001a0504001c0504001e05040020050400220504002405040026050400280504002a0504002c0504002e05040030050400320504003405040036050400380504003a05040000ca9a3b
+    m_SelectedIDs: 6a070400
+    m_LastClickedID: 264042
+    m_ExpandedIDs: 00000000280704002a0704002c0704002e07040030070400320704003407040036070400380704003a0704003c0704003e07040040070400420704004407040046070400480704004a0704004c0704004e07040050070400520704005407040056070400580704005a0704005c0704005e07040060070400620704006407040066070400680704006a07040000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -757,7 +756,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8040400fa040400fc040400fe04040000050400020504000405040006050400080504000a0504000c0504000e05040010050400120504001405040016050400180504001a0504001c0504001e05040020050400220504002405040026050400280504002a0504002c0504002e05040030050400320504003405040036050400380504003a050400
+    m_ExpandedIDs: 00000000280704002a0704002c0704002e07040030070400320704003407040036070400380704003a0704003c0704003e07040040070400420704004407040046070400480704004a0704004c0704004e07040050070400520704005407040056070400580704005a0704005c0704005e07040060070400620704006407040066070400680704006a070400
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
