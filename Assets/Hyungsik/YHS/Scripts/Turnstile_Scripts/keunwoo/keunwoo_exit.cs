@@ -32,7 +32,7 @@ public class keunwoo_exit : GWkey_script     // 테스트 플레이 후 개찰구가 열려져
     // Update is called once per frame
     void Update()
     {
-        if (exit == 1)              // 키 스크립트의 전역변수명이 exit가 아닐경우 변경할 것.
+        if (GW_key == 1)              // 키 스크립트의 전역변수명이 exit가 아닐경우 변경할 것.
         {
             if(exit_opened == 0)
             {

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class castle_boat : MonoBehaviour
+public class castle_boat : castle_boat_start_area
 {
     public GameObject boat;
     public GameObject player;
@@ -96,14 +96,13 @@ public class castle_boat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0))
+        if (boat_start == 1)
         {
-            target = GetClickedObject();
             player_pos = player.transform.position;
             boat_pos_cur = this.transform.position;
             boat_rot_cur = this.transform.rotation;
 
-            if (target.Equals(boat) && start == 0)
+            if (start == 0)
             {
                 start = 1;
                 point_1 = 1;
@@ -233,6 +232,7 @@ public class castle_boat : MonoBehaviour
                 this.transform.rotation = boat_rot;
                 point_6 = 0;
                 start = 0;
+                boat_start = 0;
             }
         }
     }

@@ -236,6 +236,7 @@
     <Compile Include="Assets\Controller.cs" />
     <Compile Include="Assets\Hyungsik\Hyungsik&apos;s_Map\Amusement Park\Third Party Assets\POLY STYLE - Vegetation Pack\Script\TakeScreenshot.cs" />
     <Compile Include="Assets\Yohan\AN Interactive Physical Door Pack\Scripts\AN_DoorScript.cs" />
+    <Compile Include="Assets\Hyungsik\YHS\Scripts\castle_boat_start_area.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Keunwoo\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />

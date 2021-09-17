@@ -8,6 +8,9 @@ public class SW_keyscript : CodeLock
     public GameObject SW_target;
     static int co = 0;
     Vector3 keySW_pos;
+
+    public static int exit = 0;
+
     void Key_Animation()
     {
         keySW_pos = this.transform.position;
@@ -40,6 +43,7 @@ public class SW_keyscript : CodeLock
             Debug.Log("충돌");
             Destroy(gameObject);
             keymove.currentscore++;
+            exit = 1;
         }
     }
 }

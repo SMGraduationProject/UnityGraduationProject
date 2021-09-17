@@ -7,14 +7,13 @@ public class GWkey_script : CodeLock
     public GameObject key;
     Vector3 GW_key_pos;
     Vector3 castle_key_cur_pos;
-    public static int exit;
     void Key_Animation()
     {
         GW_key_pos = this.transform.position;
 
         if (GW_key_pos.y < 54)
         {
-            transform.position = transform.position + Vector3.up * 1 * Time.deltaTime;
+            //transform.position = transform.position + Vector3.up * 1 * Time.deltaTime;        //임의로 주석처리한 코드
         }
 
         transform.Rotate(Vector3.one, 100 * Time.deltaTime);

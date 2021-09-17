@@ -8,6 +8,9 @@ public class key_JH : CodeLock
     public GameObject JH_target;
     static int co = 0;
     Vector3 keyJH_pos;
+
+    public static int exit = 0;
+
     void Key_Animation()
     {
         keyJH_pos = this.transform.position;
@@ -40,6 +43,7 @@ public class key_JH : CodeLock
             Debug.Log("충돌");
             Destroy(gameObject);
             keymove.currentscore++;
+            exit = 1;
         }
     }
 }

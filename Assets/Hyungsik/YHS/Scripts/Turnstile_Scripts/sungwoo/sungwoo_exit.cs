@@ -7,14 +7,13 @@ public class sungwoo_exit : SW_keyscript    // 테스트 플레이 후 개찰구가 열려져 
     Quaternion Turnstile_rot;
     Quaternion Turnstile_cur_rot;
 
-    int exit = 1;                           // 테스트를 위한 변수. 테스트 플레이 후 개찰구가 열려져 있는것을 확인했다면 삭제할 것.
     int exit_opened = 0;
-
+    
     void Turnstile_Animation()
     {
         Turnstile_cur_rot = this.transform.rotation;
 
-        if (Turnstile_cur_rot.y > Turnstile_rot.y - 0.7)
+        if (Turnstile_cur_rot.y > Turnstile_rot.y - 0.30)
         {
             Turnstile_cur_rot = this.transform.rotation;
             transform.Rotate(Vector3.down, 50 * Time.deltaTime);

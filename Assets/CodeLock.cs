@@ -14,6 +14,8 @@ public class CodeLock : MonoBehaviour
     public static int GW_key = 0;
     public Transform toOpen;
 
+    public GameObject check;        //추가된 코드
+
     private void Start()
     {
         codeLength = code.Length;
@@ -31,16 +33,19 @@ public class CodeLock : MonoBehaviour
         else
         {
             Debug.Log("Wrong Code");
+            check.GetComponent<Renderer>().material.color = Color.red;          //추가된 코드
         }
     }
 
     IEnumerator Open()
     {
         toOpen.Rotate(new Vector3(0, 90, 0), Space.World);
+        check.SetActive(false);         //추가된 코드
 
         yield return new WaitForSeconds(4);
 
         toOpen.Rotate(new Vector3(0, -90, 0), Space.World);
+        check.SetActive(true);         //추가된 코드
     }
    
     public void SetValue(string value)
@@ -49,6 +54,7 @@ public class CodeLock : MonoBehaviour
         if (placeInCode <= codeLength)
         {
             attemptedCode += value;
+            check.GetComponent<Renderer>().material.color = Color.white;      //추가된 코드
         }
 
         if(placeInCode == codeLength)
