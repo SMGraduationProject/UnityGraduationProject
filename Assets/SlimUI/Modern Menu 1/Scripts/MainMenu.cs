@@ -83,7 +83,9 @@ namespace SlimUI.ModernMenu
 			CameraObject = transform.GetComponent<Animator>();
 			DisableMenus();
 			if(isMobile) menus[0].SetActive(true);
-		}
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
 
 		void Awake()
 		{

@@ -16,7 +16,9 @@ public class gameover : MonoBehaviour
     {
         if(keymove.currentscore == 5)
         {
-	Debug.Log("게임 종료");
+            keymove.currentscore = 0;       //추가된 코드
+
+            Debug.Log("게임 종료");
             SceneManager.LoadScene("GameOver1");
         }
     }

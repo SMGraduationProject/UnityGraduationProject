@@ -10,6 +10,7 @@ public class GameoverScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            keymove.currentscore = 0;       //추가된 코드
             SceneManager.LoadScene(0);
         }
     }
