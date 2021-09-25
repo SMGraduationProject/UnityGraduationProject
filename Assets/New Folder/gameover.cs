@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class gameover : MonoBehaviour
 {
+    public GameObject Enemy;
+
+    public static int all_collect = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +20,9 @@ public class gameover : MonoBehaviour
     {
         if(keymove.currentscore == 5)
         {
-            keymove.currentscore = 0;       //추가된 코드
-
             Debug.Log("게임 종료");
-            SceneManager.LoadScene("GameOver1");
+            Destroy(Enemy);
+            all_collect = 1;
         }
     }
 }

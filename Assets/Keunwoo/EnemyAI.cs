@@ -36,7 +36,8 @@ public class EnemyAI : MonoBehaviour
         if (other.collider.tag == "Player")
         {
             //Debug.Log("test");
-            SceneManager.LoadScene("GameOver2");
+            keymove.currentscore = 0;
+            SceneManager.LoadScene("Defeat");
         }
     }
 

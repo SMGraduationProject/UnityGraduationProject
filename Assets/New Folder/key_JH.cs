@@ -11,6 +11,8 @@ public class key_JH : CodeLock
 
     public static int exit = 0;
 
+    public static int collision = 0;
+
     void Key_Animation()
     {
         keyJH_pos = this.transform.position;
@@ -40,10 +42,14 @@ public class key_JH : CodeLock
     {
         if (other.collider.tag == "Player")
         {
-            Debug.Log("충돌");
-            Destroy(gameObject);
-            keymove.currentscore++;
-            exit = 1;
+            if(collision == 0)
+            {
+                Debug.Log("충돌");
+                Destroy(gameObject);
+                keymove.currentscore++;
+                collision = 1;
+                exit = 1;
+            }  
         }
     }
 }

@@ -54,7 +54,7 @@ public class CodeLock : MonoBehaviour
         if (placeInCode <= codeLength)
         {
             attemptedCode += value;
-            check.GetComponent<Renderer>().material.color = Color.white;      //추가된 코드
+            check.GetComponent<Renderer>().material.color = Color.yellow;      //추가된 코드
         }
 
         if(placeInCode == codeLength)

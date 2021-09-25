@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SlimUI/Modern Menu 1/Scenes/Menu_Scene.unity
+    path: Assets/[Something_to_Move]/SlimUI/Modern Menu 1/Scenes/Menu_Scene.unity
     guid: 829a86ba161cdd840842063447f41aab
+  - enabled: 1
+    path: Assets/[Something_to_Move]/Opening.unity
+    guid: f04eebfe3e5ae914b974f49509afe5ce
   - enabled: 1
     path: Assets/Hyungsik/Hyungsik's_Map/Operation_G_scene.unity
     guid: a9a424e18ec7e9c44a6babc6f9aecb74
   - enabled: 1
-    path: Assets/New Folder/GameOver1.unity
-    guid: ad0e82aafcc89bc47aa9f6506cd2d780
+    path: Assets/[Something_to_Move]/Defeat.unity
+    guid: 46370918be6190247b87b74a4c49dc70
   - enabled: 1
-    path: Assets/Keunwoo/Gameover2.unity
-    guid: 195ba4677883bce47be04520e448e931
+    path: Assets/[Something_to_Move]/Win.unity
+    guid: efc404144783056459479c4312331513
+  - enabled: 1
+    path: Assets/[Something_to_Move]/Ending_Credit.unity
+    guid: 0b23759a6030e7243a925cd31fa888e5
   m_configObjects: {}

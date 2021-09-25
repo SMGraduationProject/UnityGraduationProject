@@ -11,6 +11,8 @@ public class SW_keyscript : CodeLock
 
     public static int exit = 0;
 
+    public static int collision = 0;
+
     void Key_Animation()
     {
         keySW_pos = this.transform.position;
@@ -33,6 +35,7 @@ public class SW_keyscript : CodeLock
             if (GW_target.tag == "key")
             {
                 Destroy(GW_target);
+                collision = 1;
             }
         }
     }
@@ -40,10 +43,14 @@ public class SW_keyscript : CodeLock
     {
         if (other.collider.tag == "Player")
         {
-            Debug.Log("충돌");
-            Destroy(gameObject);
-            keymove.currentscore++;
-            exit = 1;
+            if (collision == 0)
+            {
+                Debug.Log("충돌");
+                Destroy(gameObject);
+                keymove.currentscore++;
+                exit = 1;
+                collision = 1;
+            }
         }
     }
 }

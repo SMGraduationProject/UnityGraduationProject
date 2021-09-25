@@ -53,8 +53,8 @@
     <UnityVersion>2020.3.13f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\CameraFade\CameraFade.cs" />
     <Compile Include="Assets\Plugins\CameraFade\SampleScene\ButtonFunctions.cs" />
+    <Compile Include="Assets\Plugins\CameraFade\CameraFade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

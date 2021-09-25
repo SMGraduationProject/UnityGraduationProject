@@ -67,7 +67,7 @@
     <Compile Include="Assets\Keunwoo\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
     <Compile Include="Assets\Keunwoo\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Keunwoo\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\SlimUI\Modern Menu 1\Editor\SlimUIWindow.cs" />
+    <Compile Include="Assets\[Something_to_Move]\SlimUI\Modern Menu 1\Editor\SlimUIWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
